@@ -1,7 +1,7 @@
 {
-  "name": "@codetrix-studio/capacitor-google-auth",
-  "version": "3.4.0-rc.4",
-  "description": "Google Auth plugin for capacitor.",
+  "name": "@rentman/capacitor-google-auth",
+  "version": "0.0.1",
+  "description": "Google Auth plugin for capacitor. Forked from @codetrix-studio/capacitor-google-auth to update dependency to comply to Apples privacy manifest requirements",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
@@ -13,7 +13,7 @@
     "test": "echo \"no test specified\"",
     "docgen": "docgen --api GoogleAuthPlugin --output-readme README.md"
   },
-  "author": "CodetrixStudio",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@capacitor/android": "^6.0.0",
@@ -36,7 +36,7 @@
     "android/",
     "!android/src/androidTest",
     "!android/src/test",
-    "CodetrixStudioCapacitorGoogleAuth.podspec"
+    "RentmanCapacitorGoogleAuth.podspec"
   ],
   "keywords": [
     "capacitor",
@@ -60,10 +60,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CodetrixStudio/CapacitorGoogleAuth"
+    "url": "https://github.com/rentmanpublic/CapacitorGoogleAuth.git"
   },
   "bugs": {
-    "url": "https://github.com/CodetrixStudio/CapacitorGoogleAuth/issues"
+    "url": "https://github.com/rentmanpublic/CapacitorGoogleAuth/issues"
   },
   "prettier": "@ionic/prettier-config"
 }
